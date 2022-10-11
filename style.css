@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: #485268;
+  background-color: #E5E5E5;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.page {
+  width: 595px;
+  margin: 0 auto;
+  box-shadow: 10px 7px 5px rgb(93, 86, 86);
+}
+
+/* #region about */
+.about {
+  display: flex;
+  background-color: #E25544;
+  color: #fff;
+  padding: 32px 40px 24px;
+}
+
+.about__name {
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.about__role {
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  margin: 0;
+}
+
+.about__photo {
+  margin-left: 50px;
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+}
+/* #endregion */
+
+.main {
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+/* #region contacts */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts__link {
+  color: #485268;
+  text-decoration: none;
+}
+/* #endregion */
+
+/* #region info */
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #DEE2ED;
+  padding: 24px 0;
+}
+
+.info__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #E25544;
+}
+
+.info__content {
+  width: 360px;
+}
+/* #endregion */
+
+/* #region job */
+.info__job {
+  margin-top: 24px;
+  padding-left: 8px;
+  border-left: 1px dashed #DEE2ED;
+}
+
+.info__job:first-child {
+  margin: 0;
+}
+
+.info__job__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+}
+
+.info__job__description {
+  margin: 8px 0 0;
+}
+/* #endregion */
+
+/* #region study */
+.info__study {
+  padding-left: 8px;
+  border-left: 1px dashed #DEE2ED;
+}
+
+.info__study__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+}
+
+.info__study__description {
+  margin: 8px 0 0;
+}
+/* #endregion */
+
+/* #region skills */
+
+.info__skills__list {
+  margin: 0;
+  padding-left: 8px;
+  border-left: 1px dashed #DEE2ED;
+  list-style: none;
+}
+
+.info__skills__item {
+  margin: 8px 0 0;
+}
+
+.info__skills__item:first-child {
+  margin: 0;
+}
+/* #endregion */
+
+/* #region tools */
+.info__tools {
+  display: flex;
+}
+
+.info__tools__list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  padding-left: 8px;
+  border-left: 1px dashed #DEE2ED;
+  list-style: none;
+}
+
+.info__tools__item {
+  margin: 8px 0 0;
+}
+
+.info__tools__item:first-child {
+  margin: 0;
+}
+/* #endregion */
