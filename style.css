@@ -67,6 +67,16 @@ strong {
   color: #485268;
   text-decoration: none;
 }
+
+.contacts__link:hover {
+  background-color: #E25544;
+  color: #fff;
+}
+
+.contacts__link:active {
+  background-color: #6d0d03;
+  color: #ff0;
+}
 /* #endregion */
 
 /* #region info */
